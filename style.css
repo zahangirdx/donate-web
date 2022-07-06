@@ -70,6 +70,7 @@ input {
     background-color: rgba(255, 166, 0, 0.263);
     color: orangered;
     font-weight: 700;
+    box-shadow: 2px 2px 1px red;
 }
 .donate-area p{
     font-size: 20px;
@@ -83,6 +84,9 @@ input {
 .donate-plan-text h1{
     font-size: 50px;
 }
+.donate-plan-text p{
+    font-size: 20px;
+}
 .donate-plan-idea{
     display: flex;
     padding-left: 100px;
@@ -95,17 +99,17 @@ input {
 }
 .family{
     background-color: rgba(21, 107, 133, 0.201);
-    padding: 5px 30px;
+    padding: 25px 30px;
     border-radius: 5px;
 }
 .shelter{
     background-color: rgba(255, 192, 203, 0.579);
-    padding: 5px 20px;
+    padding: 25px 20px;
     border-radius: 5px;
 }
 .education{
     background-color: rgba(255, 254, 192, 0.633);
-    padding: 5px 20px;
+    padding: 25px 20px;
     border-radius: 5px;
 }
 .family img{
@@ -116,4 +120,69 @@ input {
 }
 .education img{
     margin-top: 70px;
+}
+.our-gallery{
+    margin-top: 130px;
+    text-align: center;
+}
+.our-gallery h1{
+    font-size: 50px;
+}
+.our-gallery p{
+    font-size: 20px;
+}
+.gallery{
+    display: flex;
+    padding-left: 150px;
+    width: 80%;
+}
+.gallery-img {
+    margin: 5px;
+  }
+
+.updates{
+    margin-top: 130px;
+}
+.updates-text{
+    text-align: center;
+}
+.updates-text h1{
+    font-size: 50px;
+}
+.updates-text p{
+    font-size: 20px;
+}
+.updates-box{
+    background-color: rgba(255, 213, 0, 0.23);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 80px;
+}
+.updates-input{
+    display: flex;
+    padding-left: 100px;
+}
+.for-updates{
+    text-align: left;
+    border-radius: 5px 0 0 5px;
+    height: 45px;
+    background-color: rgba(128, 128, 128, 0.263);
+}
+button{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 0 5px 5px 0;
+}
+footer{
+    margin-top: 130px;
+    background-color: black;
+    padding: 30px 30px;
+    color: white;
+    text-align: center;
+}
+footer h1{
+    color: orangered;
 }
