@@ -74,3 +74,46 @@ input {
 .donate-area p{
     font-size: 20px;
 }
+.donate-plan{
+    margin-top: 130px;
+}
+.donate-plan-text{
+    text-align: center;
+}
+.donate-plan-text h1{
+    font-size: 50px;
+}
+.donate-plan-idea{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 45px;
+}
+.donate-idea{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.family{
+    background-color: rgba(21, 107, 133, 0.201);
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.shelter{
+    background-color: rgba(255, 192, 203, 0.579);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.education{
+    background-color: rgba(255, 254, 192, 0.633);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.family img{
+    margin-top: 70px;
+}
+.shelter img{
+    margin-top: 70px;
+}
+.education img{
+    margin-top: 70px;
+}
