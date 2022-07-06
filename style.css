@@ -29,3 +29,48 @@ body{
     font-size: 25px;
     font-weight: 700;
 }
+.donate{
+    margin-top: 130px;
+}
+.donate-area{
+    text-align: center;
+}
+.donate-amount{
+    display: flex;
+    justify-content:  space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 70px;
+}
+.amount{
+    background-color: rgba(128, 128, 128, 0.133);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input {
+    border: 0;
+    outline: 0;
+    width: 50%;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.177);
+    text-align: center;
+    font-size: 20px;
+}
+.donate-area-btn{
+    margin-top: 45px;
+}
+.input-amount{
+    text-align: center;
+    margin-top: 30px;
+}
+.donate-area h1{
+    font-size: 50px;
+}
+.orange-text{
+    background-color: rgba(255, 166, 0, 0.263);
+    color: orangered;
+    font-weight: 700;
+}
+.donate-area p{
+    font-size: 20px;
+}
